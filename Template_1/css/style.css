@@ -953,7 +953,6 @@ body {
 
 .item-getintouch__active {
   background-color: #252b42;
-  padding: 80px 15px;
   color: #ffffff;
 }
 
@@ -964,7 +963,7 @@ body {
 
 @media (min-width: 992px) {
   .item-getintouch__active {
-    padding: 50px 15px;
+    padding: 80px 15px;
   }
 }
 /*---------------------------*/
