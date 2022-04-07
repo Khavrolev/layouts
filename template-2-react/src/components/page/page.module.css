@@ -1,7 +1,19 @@
 .wrapper__page {
-  margin-top: 48px;
+  margin-top: 50px;
 }
 
 .page {
   flex: 1;
+}
+
+@media (min-width: 768px) {
+  .wrapper__page {
+    margin-top: 49px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .wrapper__page {
+    margin-top: 57px;
+  }
 }

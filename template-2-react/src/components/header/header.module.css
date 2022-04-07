@@ -25,11 +25,11 @@
 }
 
 .header__lang_selected {
-  text-decoration: underline;
+  border-bottom: 1px solid #ffffff;
 }
 
 .header__lang:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 19px;
 }
 
 @media (min-width: 768px) {
@@ -37,11 +37,16 @@
     margin-top: 28px;
   }
 
-  .header__logo img {
+  .header__image {
     height: 100%;
   }
 
   .header__link {
+    font-size: 24px;
+    line-height: calc(100% * 28 / 24);
+  }
+
+  .header__lang {
     font-size: 24px;
     line-height: calc(100% * 28 / 24);
   }

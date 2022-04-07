@@ -1,7 +1,5 @@
 .page__intro {
   margin-top: 64px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .intro {
@@ -17,7 +15,7 @@
 }
 
 .intro__text {
-  padding-top: 40px;
+  padding-top: 39px;
   line-height: 163%;
 }
 
@@ -41,7 +39,7 @@
 }
 @media (min-width: 768px) {
   .page__intro {
-    margin-top: 88px;
+    margin-top: 89px;
   }
 
   .intro__title {
@@ -52,7 +50,7 @@
 
 @media (min-width: 1024px) {
   .page__intro {
-    margin-top: 92px;
+    margin-top: 93px;
   }
 
   .intro {
@@ -61,7 +59,7 @@
 }
 
 @media (min-width: 1280px) {
-  .intro {
-    max-width: 984px;
+  .page__intro {
+    margin-left: 100px;
   }
 }

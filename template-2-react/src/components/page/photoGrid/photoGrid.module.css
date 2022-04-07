@@ -14,6 +14,10 @@
 }
 
 @media (min-width: 768px) {
+  .page__photo-grid {
+    margin-top: 88px;
+  }
+
   .photo-grid {
     grid-template-columns: 1fr 1fr;
     gap: 16px;
@@ -22,6 +26,7 @@
 
 @media (min-width: 1024px) {
   .photo-grid {
+    margin-top: 92px;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 14px;
   }

@@ -1,6 +1,6 @@
 .wrapper__footer {
-  margin-top: 88px;
-  margin-bottom: 23px;
+  margin-top: 65px;
+  margin-bottom: 24px;
 }
 
 .menu__item:not(:first-child) {
@@ -13,12 +13,16 @@
 }
 
 .footer__copy {
-  padding-top: 48px;
+  padding-top: 46px;
   font-size: 14px;
   line-height: calc(100% * 16 / 14);
 }
 
 @media (min-width: 768px) {
+  .wrapper__footer {
+    margin-top: 89px;
+  }
+
   .footer {
     display: flex;
   }
@@ -32,7 +36,7 @@
   }
 
   .menu__item:not(:first-child) {
-    padding: 0 0 0 18px;
+    padding: 0 0 0 19px;
   }
 
   .menu__link {

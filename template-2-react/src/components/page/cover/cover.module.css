@@ -32,13 +32,13 @@
 .cover__title {
   font-size: 32px;
   line-height: calc(100% * 35 / 32);
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .cover__subtitle {
   padding-top: 16px;
   max-width: 288px;
-  font-size: 15px;
+  font-size: 14px;
   line-height: calc(100% * 16 / 14);
 }
 
@@ -48,7 +48,9 @@
 
 @media (min-width: 768px) {
   .page__cover {
-    margin-top: 92px;
+    margin-top: 90px;
+    margin-left: -24px;
+    margin-right: -24px;
   }
 
   .cover__title {
@@ -61,6 +63,13 @@
     max-width: 360px;
     font-size: 18px;
     line-height: calc(100% * 22 / 18);
+  }
+}
+
+@media (min-width: 1024px) {
+  .page__cover {
+    margin-left: -48px;
+    margin-right: -48px;
   }
 }
 

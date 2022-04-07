@@ -65,7 +65,7 @@
 
 @media (min-width: 768px) {
   .page__places {
-    margin-top: 88px;
+    margin-top: 90px;
   }
 
   .item-places {
@@ -74,7 +74,7 @@
   }
 
   .item-places:not(:first-child) {
-    padding-top: 73px;
+    padding-top: 23px;
   }
 
   .item-places__head {
@@ -117,7 +117,7 @@
   }
 
   .places__item:not(:first-child) {
-    margin-top: 80px;
+    margin-top: 58px;
   }
 
   .item-places__title {
@@ -130,6 +130,9 @@
   .item-places__icon {
     margin-right: 32px;
     width: 440px;
+  }
+  .item-places__paragraph {
+    font-size: 18px;
   }
 
   .item-places__paragraph:not(:first-child) {
