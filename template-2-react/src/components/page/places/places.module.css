@@ -1,0 +1,154 @@
+.page__places {
+  margin-top: 64px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.places {
+  display: flex;
+  flex-direction: column;
+}
+
+.places__item:not(:first-child) {
+  margin-top: 50px;
+}
+
+.item-places__title {
+  font-size: 32px;
+  line-height: calc(100% * 35 / 32);
+  font-weight: 900;
+}
+
+.item-places__website {
+  padding-top: 32px;
+  margin-top: auto;
+}
+
+.item-places__url-heading {
+  font-size: 12px;
+  line-height: calc(100% * 12 / 12);
+  letter-spacing: 2px;
+  color: #aaaaaa;
+}
+
+.item-places__link {
+  display: inline-block;
+  text-decoration: underline;
+  padding-top: 12px;
+  font-size: 18px;
+  line-height: calc(100% * 22 / 18);
+}
+
+.item-places__description {
+  padding-top: 32px;
+}
+
+.item-places__icon {
+  margin: 0 -16px;
+}
+
+.item-places__image {
+  width: 100%;
+}
+
+.item-places__paragraphs {
+  padding-top: 32px;
+}
+
+.item-places__paragraph {
+  line-height: 163%;
+}
+
+.item-places__paragraph:not(:first-child) {
+  padding-top: 25px;
+}
+
+@media (min-width: 768px) {
+  .page__places {
+    margin-top: 88px;
+  }
+
+  .item-places {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item-places:not(:first-child) {
+    padding-top: 73px;
+  }
+
+  .item-places__head {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .item-places__title {
+    margin-right: 28px;
+    width: 340px;
+    font-size: 42px;
+    line-height: calc(100% * 46 / 42);
+  }
+
+  .item-places__website {
+    flex: 1;
+    padding-top: 0;
+  }
+
+  .item-places__description {
+    padding-top: 48px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .item-places__icon {
+    margin: 0 28px 0 0;
+    width: 340px;
+  }
+
+  .item-places__paragraphs {
+    padding-top: 0px;
+    flex: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page__places {
+    margin-top: 92px;
+  }
+
+  .places__item:not(:first-child) {
+    margin-top: 80px;
+  }
+
+  .item-places__title {
+    margin-right: 32px;
+    width: 440px;
+    font-size: 72px;
+    line-height: calc(100% * 76 / 72);
+  }
+
+  .item-places__icon {
+    margin-right: 32px;
+    width: 440px;
+  }
+
+  .item-places__paragraph:not(:first-child) {
+    padding-top: 27px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .places {
+    max-width: 984px;
+  }
+
+  .item-places__title {
+    margin-right: 40px;
+    width: 460px;
+  }
+
+  .item-places__icon {
+    margin-right: 40px;
+    width: 460px;
+  }
+}

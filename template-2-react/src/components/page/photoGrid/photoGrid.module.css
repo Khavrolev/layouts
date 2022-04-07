@@ -1,0 +1,35 @@
+.page__photo-grid {
+  margin-top: 64px;
+}
+
+.photo-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.photo-grid__image {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .photo-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .photo-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .photo-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+  }
+}

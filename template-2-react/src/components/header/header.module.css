@@ -1,0 +1,48 @@
+.wrapper__header {
+  margin-top: 16px;
+}
+
+.header__body {
+  display: flex;
+}
+
+.header__logo {
+  flex: 1;
+}
+
+.header__image {
+  height: 42px;
+}
+
+.header__langs {
+  display: flex;
+  margin: auto 0 5px 0;
+}
+
+.header__lang {
+  font-size: 18px;
+  line-height: calc(100% * 20 / 18);
+}
+
+.header__lang_selected {
+  text-decoration: underline;
+}
+
+.header__lang:not(:last-child) {
+  margin-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .wrapper__header {
+    margin-top: 28px;
+  }
+
+  .header__logo img {
+    height: 100%;
+  }
+
+  .header__link {
+    font-size: 24px;
+    line-height: calc(100% * 28 / 24);
+  }
+}
